@@ -1,13 +1,14 @@
-import ao.cientista.User;
+import java.util.Scanner;
 
 public class MegaSena {
 
   public static void main(String[] args) {
-    User user = new User();
+    Scanner scanner = new Scanner(System.in);
 
-    user.setIdade(1);
-    user.setName("Cientista");
+    System.out.println("Insira seu Nome");
 
-    System.out.println(user.getIdade() + " " + user.getName());
+    String Nome = scanner.nextLine();
+
+    System.out.println(Nome);
   }
 }

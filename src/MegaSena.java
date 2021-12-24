@@ -1,14 +1,9 @@
-import java.util.Scanner;
-
 public class MegaSena {
 
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    int x = 2;
+    Integer y = 4;
 
-    System.out.println("Insira seu Nome");
-
-    String Nome = scanner.nextLine();
-
-    System.out.println(Nome);
+    System.out.println(x + " " + y);
   }
 }

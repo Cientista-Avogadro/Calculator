@@ -1,9 +1,12 @@
 public class MegaSena {
 
   public static void main(String[] args) {
-    int x = 2;
-    Integer y = 4;
-
-    System.out.println(x + " " + y);
+    int x;
+    if (true) {
+      x = 10;
+    } else {
+      x = 2;
+    }
+    System.out.println(x);
   }
 }
